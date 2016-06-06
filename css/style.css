@@ -1,0 +1,202 @@
+/*
+		Theme Name: Historias del agua
+		Theme URI: http://
+		Author: Sandra Barron
+		Author URI: http://sandrabarron.com/
+		Description: Hoja de estilos de la pÃ¡gina de Historias del agua
+		Version: 1.0
+
+        Hoja de estilos de sitio Lagartijas Tiradas al Sol
+        Autor: Sandra BarrÃ³n & Gerardo Vidal
+*/
+/*fuentes*/
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+       url('../fonts/MyriadPro-Bold.woff') format('woff'),
+       url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Myriad Bold Cond';
+  src: url('../fonts/fonts/MYRIADPRO-BOLDCOND.woff2') format('woff2'),
+       url('../fonts/fonts/MYRIADPRO-BOLDCOND.woff') format('woff'),
+       url('../fonts/MYRIADPRO-BOLDCOND.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Myriad Cond';
+  src: url('../fonts/MYRIADPRO-COND.woff2') format('woff2'),
+       url('../fonts/MYRIADPRO-COND.woff') format('woff'),
+       url('../fonts/MYRIADPRO-COND.ttf') format('truetype');
+}
+
+/*reset*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0}
+a{color: inherit; text-decoration: none;}
+a:focus{outline:0}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:0}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0; margin:inherit;}
+svg:not(:root){overflow:hidden}
+figure{margin:0;padding:0; display:block;vertical-align: top;}
+figure img{width:inherit;height:inherit;display:inherit; margin:inherit;}
+figcaption{width: inherit; margin: 0; font-family: 'Myriad Bold Cond'; font-size: 1em; width: 100%; }
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+p{margin: 0; padding: 0;}
+h2, h3, h4{margin:0; padding: 0;}
+span{margin: 0; padding: 0;}
+figure{margin:0; padding: 0;}
+
+/*generales*/
+section{width: 100%; overflow: hidden; margin:100px 0 100px 0;}
+
+nav { width: 100%; background: #FEC105; z-index: 100; height: 45px; font-family: 'Myriad', sans-serif; font-size: .8em; position: fixed; top:0;}
+nav figure{ height: 85%; float:left; margin: 0 0 0 30px; padding: 5px;}
+nav ul{width: auto; margin: 15px 10px 15px 0; ; list-style: none; float: right;}
+nav ul li{display: inline-block; margin: 0 30px 0 0;}
+nav ul li:last-child{display: inline-block; margin: 0;}
+nav ul li a{ text-decoration: none; color: inherit;}
+nav ul li a:hover{ border-bottom:solid 4px #63BBBE; }
+
+.scroll_place{color:#fff; text-align: center;}
+.scroll_home{position: fixed; left:48%; top: 70%;}
+.scroll_down{background: transparent url(../images/scroll_down.png); width: 51px; height: 52px; background-size: cover;}
+.scroll_down a{padding: 5px 0 0 0;}
+
+footer{background: #fff; width: 100%; height: 40px; position: fixed; bottom: 0; z-index: 1000;    padding: 5px 0; border-top: solid 1px #FEC105;}
+footer figure img{width: 100%;}
+.logos_convoca{width: 27%;height: auto;left: 0;margin: 0 60% 0 1%;display: inline-block;vertical-align: top;}
+.logos_apoya{width: 10%; height: auto;right: 39px;display: inline-block; vertical-align: top;}
+
+.logo_blanco{ width: 70%; padding: 0 ; background: transparent; margin: 5% auto 0 auto; z-index: 2;}
+
+
+h1{font-family: 'Myriad', sans-serif;padding: 0 0 0 10px; line-height:37px;color: #fff; background: transparent; font-size: 1em;  margin: 0 auto;  width: 100%; height: auto; }
+h2{font-family: 'Myriad', sans-serif; padding: 0 0 0 10px;color: #000; background: transparent; font-size: 4em;  margin: 15px auto;  width: 70%; height: auto;}
+p{font-family: 'Georgia', serif; font-size: 1.1em; margin: 20px auto; line-height: 1.5em; width: 70%; }
+.subtitulo{font-family: 'Myriad Bold Cond', sans serif; font-size: 1.5em; margin: 0 auto;  }
+
+.historias{margin: 0 0 51px 0;position: relative;}
+.home{font-family: 'Myriad', sans-serif; height:100vh; margin: 0;}
+.historia_inicio{font-family: 'Myriad', sans-serif; height:100vh; margin: 0 0 0 0; position: relative;}
+.historia_inicio h2{ font-size: 6em; text-shadow: 2px 2px 5px #434343; color:#fff; text-align: center; margin: 10% auto 0 auto;}
+.historia_inicio h3{ text-align: center; font-family: 'Myriad Bold Cond'; color: #fff; text-shadow: 2px 2px 5px #434343; font-size: 2em;}
+
+.video_background { position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; overflow: hidden; z-index:-1;}
+.video_background_controls { position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; overflow: hidden; z-index:0;}
+
+
+.break_verde{height:8px; width: 45%; background: #63BBBE;}
+.break_verde_hist{height:8px; width: 45%; background: #63BBBE; margin: 5% auto 3% auto;}
+
+.b_texto{width: 70%; margin: 0 auto; }
+.b_texto p{width: 100%;}
+.b_foto_v{width: 70%; margin: 20px auto;}
+.b_foto_v figure{ width:45%; margin: 0 9% 15px 0;display: inline-block;}
+.b_foto_v figure:last-child{ margin: 0 0 15px 0;}
+.b_foto_v figure img{width: 100%;}
+figcaption{font-family: 'Myriad Bold Cond'; font-size: 1em; width: 100%;}
+.b_foto_h {width: 70%; margin: 0 auto;}
+.b_foto_h figure {width: 100%; height: auto;}
+.b_foto_texto{position: relative; height: 100vh; overflow: hidden;}
+.b_foto_texto p{color: #fff; font-size: 1.5em; position: absolute; font-family: "Myriad Cond", sans-serif; padding: 15px; left: 15%; bottom:1%;z-index: 2;}
+.b_foto_texto figure{z-index: -9999;}
+.b_foto_texto img{width: 100%;}
+.txt_gradient{width: 100%; height: 100vh; position: absolute; z-index: 1;background: linear-gradient(to bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,0.8)); bottom: 0;}
+
+.b_audio{position: relative; height: 100vh; overflow: hidden;}
+.b_audio audio{position: absolute; bottom:10%; left:40%;}
+.b_audio img{width: 100%;}
+
+.b_video{position: relative; height:100vh;}
+
+.box{width: 70%; margin: 20px auto;}
+.btn_relatoria{background: #FF6E02; color:#fff; font-family: 'Myriad', sans serif; width: 27%; height: auto; margin: 0 auto; padding: 15px;}
+.btn_relatoria a{vertical-align: middle; font-size: 2em; background: url(../images/scroll_right.png) no-repeat; background-size: auto 100%; background-position: 100% 50%; width: 95%; margin: 0 auto; display: block;}
+.btn_relatoria img{vertical-align: middle; width: 15%;}
+
+.maestros{width: 45%; display: inline-block;margin:0 2% 0 0;}
+.maestros:last-child{margin:0;}
+.maestros figure{width: 100%; background: #ccc; height: 250px;}
+.maestros h4{color: #FEC105; font-family: 'Myriad'; font-size: 3em; margin: 10px 0 0 0;}
+.maestros p.subtitulo{margin: 0; width: 100%;}
+
+.maestros{width: 48%; display: inline-block;margin:0 3% 0 0;}
+.maestros:last-child{margin:0;}
+.maestros figure{width: 100%; background: #ccc; height: 250px;}
+.maestros h4{color: #FEC105; font-family: 'Myriad'; font-size: 3em; margin: 10px 0 0 0;}
+.maestros p.subtitulo{margin: 0; width: 100%;}
+
+.talleristas{width: 23%; display: inline-block; margin: 0 2% 2% 0;}
+.talleristas:nth-child(4){margin:0;}
+.talleristas:nth-child(8){margin:0;}
+.talleristas:nth-child(12){margin:0;}
+.talleristas:nth-child(16){margin:0;}
+.talleristas figure{width: 100%; background: #ccc; height: 150px;}
+.talleristas h4{color: #FEC105; font-family: 'Myriad'; font-size: 1em; margin: 10px 0 0 0;}
+.talleristas p.talleristas_p{margin: 0; width: 100%; font-size: .8em;}
+
+.equipo{width: 31%; display: inline-block; margin: 0 3% 3% 0;}
+.equipo:nth-child(3){margin:0;}
+.equipo:nth-child(6){margin:0;}
+.equipo figure{width: 100%; background: #ccc; height: 170px;}
+.equipo h4{color: #FEC105; font-family: 'Myriad'; font-size: 1em; margin: 10px 0 0 0;}
+.equipo p.equipo_p{margin: 0; width: 100%; font-size: .8em;}
+
+/*@media screen and (min-width: 730px) and (max-width: 1105px) {
+
+    h1{ padding: 0; display: inline-block; float: none; font-size: 1em;  margin: 0 auto;  width: 95.3%; height: 37px; text-align: center;}
+
+    nav { display: inline-block; border-bottom:1px solid #000; width: 100%; background: #fff; z-index: 100; height: auto; font-family: 'Myriad', sans-serif; font-size: .7em;}
+    nav ul{width: 884px; margin: 0 auto; line-height: 37px; list-style: none;}
+    nav ul li{display: inline-block; margin: 0 30px 0 0;}
+    nav ul li:last-child{display: inline-block; margin: 0;}
+    nav ul li a{ text-decoration: none; color: inherit;}
+    nav ul li a:hover{ text-decoration: none; color: #CB1224;}
+
+}*/
+/*
+@media only screen and (min-width: 320px) and (max-width: 730px) {
+
+    h1{ padding: 0; display: inline-block; float: none; font-size: 1em;  margin: 0 auto;  width: 85%; height: 37px; text-align: center;}
+
+    h2{text-align: center; width: 90%; font-size: 1.3em; margin:0;}
+
+
+
+    nav { display: inline-block; border-bottom:1px solid #000; width: 100%; background: #fff; z-index: 100; height: auto; font-family: 'Myriad', sans-serif; }
+    nav ul{width: 70%; margin: 0 0 0 20px; line-height: 18px; list-style: none;  padding:0;}
+    nav ul li{display: inline-block; margin:0; width: 100%; text-decoration: underline;}
+    nav ul li a{ text-decoration: none; color: inherit;}
+    nav ul li a:hover{ text-decoration: none; color: #CB1224;}
+
+
+
+}*/
