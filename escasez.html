@@ -7,6 +7,7 @@
 		<title>Historias del Agua</title>
 
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" media="all" />
 		<link rel="icon" type="image/png" href="#">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,7 +22,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
 	<body>
-		<section class="historia_inicio">
+		<nav class="js--menu menu--superior">
+			<figure>
+				<img src="images/logo_negro.png"/>
+			</figure>
+			<ul>
+					<li><a href="#">HISTORIAS</a></li>
+					<li><a href="#">EL TALLER</a></li>
+			</ul>
+		</nav>
+		<section class="historia_inicio js--seccion--scroll">
 			<video class="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
 				<source src="video/el_agua_la_vida_mia_1.mp4" type="video/mp4"/>
 			</video>
@@ -30,113 +40,214 @@
 			<h3>Tainmaasü tü wuinkaa.</h3>
 		</section>
 		<section class="historias" id="historia1">
-			<div class="b_video">
+			<div class="b_video js--seccion--scroll">
 				<iframe src="https://player.vimeo.com/video/169879417?title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<!-- <video class="video_background_controls" controls>
 					<source src="images/aguavidamia/el_agua_la_vida_mia_7.mp4" type="video/mp4"/>
 				</video> -->
 			</div>
-			<div class="b_foto_texto ">
+			<div class="b_foto_texto js--seccion--scroll ">
 				<div class="txt_gradient"></div>
 				<figure>
 					<img src="images/aguavidamia/elagualavidamia3.jpg" alt="Taller Historias del Agua">
 				</figure>
 				<div class="slider_txt">
-					<div class="btn_left"></div>
-				<p>
-					¿Será tan fácil hablar de paz sin agua?, se pregunta Adelaida Vangrieken, una mujer wayuu que dice tener medio siglo de vida en la tierra y que duda de que en Colombia los conflictos terminen con la firma del tratado entre el Gobierno y las FARC.
-					Esta mujer a la que no le tiembla la voz al momento de defender sus derechos y los de sus paisanos, le habla directamente a Juan Manuel Santos, presidente de la República: “Sin agua sigue la guerra, sueltan las armas y sigue, y cada vez va a ser peor”.
-					Porque más allá de los lugares comunes, la esencia de la existencia de ser wayuu está en el agua. “El agua es la vida de nosotros, es la vida del pueblo de La Guajira”.
-				</p>
-				<div class="btn_right"></div>
+					<div class="js--carrusel__1">
+						<div>
+							<p>
+								¿Será tan fácil hablar de paz sin agua?, se pregunta Adelaida Vangrieken, una mujer wayuu que dice tener medio siglo de vida en la tierra y que duda de que en Colombia los conflictos terminen con la firma del tratado entre el Gobierno y las FARC.
+							</p>
+						</div>
+						<div>
+							<p>
+								Esta mujer a la que no le tiembla la voz al momento de defender sus derechos y los de sus paisanos, le habla directamente a Juan Manuel Santos, presidente de la República: “Sin agua sigue la guerra, sueltan las armas y sigue, y cada vez va a ser peor”.
+							</p>
+						</div>
+						<div>
+							<p>
+								Porque más allá de los lugares comunes, la esencia de la existencia de ser wayuu está en el agua. “El agua es la vida de nosotros, es la vida del pueblo de La Guajira”.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			</div>
-			<div class="b_foto_texto">
+			<div class="b_foto_texto js--seccion--scroll">
 				<div class="txt_gradient"></div>
 				<figure>
 					<img src="images/aguavidamia/El_agua_la_vida_mia_4.jpg" alt="Taller Historias del Agua">
 				</figure>
 				<div class="slider_txt">
-					<div class="btn_left"></div>
-				<p>
-					Pulowi, la que da vida. Pulowi, es una mujer bella que vive en las profundidades del agua. De acuerdo con la cosmovisión del pueblo wayuu esto forma parte de la historia de sus ancestros.
-					Adelaida mira al cielo y lo señala: “Los alijunas dicen que el paraíso está allá, los wayuu decimos que el paraíso es este que es donde está la vida y es donde esta el agua”.
-					De niña recuerda que su mamá la llevaba al rio cuando estaba crecido para ver el arroyo desbordado. Esa era una señal de que la vida estaba expandiéndose, “el agua es para expandir la vida y la tierra”.
-					Pero hoy la historia es otra. Hace tres años comenzó la emergencia en el Departamento de La Guajira. La sequía hace estragos y mantiene a las comunidades con sed.
-					“Esas aguas eran cristalinas y yo me tiraba de un palo hacia el pozo. ¡Qué delicia! Hoy mi hijo que tiene 15 años no puede ejercer esa actividad porque el arroyo está seco.
-					Yo conocí la nutria y mi hijo que tiene 15 años la conoce solamente en papel y en televisión.
-					Ese es mi hijo hoy en día, y sus nietos ni siquiera en papel la van a ver”.
-				</p>
-			<div class="btn_right"></div>
+					<div class="js--carrusel__2">
+						<div>
+							<p>
+								Pulowi, la que da vida. Pulowi, es una mujer bella que vive en las profundidades del agua. De acuerdo con la cosmovisión del pueblo wayuu esto forma parte de la historia de sus ancestros.
+							</p>
+						</div>
+						<div>
+							<p>
+								Adelaida mira al cielo y lo señala: “Los alijunas dicen que el paraíso está allá, los wayuu decimos que el paraíso es este que es donde está la vida y es donde esta el agua”.
+							</p>
+						</div>
+						<div>
+							<p>
+								De niña recuerda que su mamá la llevaba al rio cuando estaba crecido para ver el arroyo desbordado. Esa era una señal de que la vida estaba expandiéndose, “el agua es para expandir la vida y la tierra”.
+							</p>
+						</div>
+						<div>
+							<p>
+								Pero hoy la historia es otra. Hace tres años comenzó la emergencia en el Departamento de La Guajira. La sequía hace estragos y mantiene a las comunidades con sed.
+							</p>
+						</div>
+						<div>
+							<p>
+								“Esas aguas eran cristalinas y yo me tiraba de un palo hacia el pozo. ¡Qué delicia! Hoy mi hijo que tiene 15 años no puede ejercer esa actividad porque el arroyo está seco.
+							</p>
+						</div>
+						<div>
+							<p>
+								Yo conocí la nutria y mi hijo que tiene 15 años la conoce solamente en papel y en televisión.<br>
+								Ese es mi hijo hoy en día, y sus nietos ni siquiera en papel la van a ver”.
+							</p>
+						</div>
+					</div>
 				</div>
-		</div>
-			<div class="b_audio">
+			</div>
+			<div class="b_audio js--seccion--scroll js--seccion--audio"  data-audio="images/aguavidamia/agualavidamia5.mp3">
 				<figure>
 					<img src="images/aguavidamia/El_agua_la_vidamia5.jpg" alt="Taller Historias del Agua">
 				</figure>
-				<audio controls>
-					<source src="images/aguavidamia/agualavidamia5.mp3" type="audio/mpeg">
-					Your browser does not support the audio tag.
-				</audio>
+
+				<div class="reproductor">
+      			<button data-estado="pausa" class="js-reproducir">
+      				<div class="flip-container">
+      					<div class="flipper">
+      						<div class="front"><span class="int-play-circle-fill"></span></div>
+      						<div class="back"><span class="int-pause-circle-fill"></span></div>
+      					</div>
+      				</div>
+      			</button>
+      			<input type="range" min="0" max="100" value="0" step="0.1" class="js-rango">
+      			<button data-volumen="suena" class="js-volumen volumen"><span class="js-texto texto">Silencio</span>
+      				<div class="flip-container">
+      					<div class="flipper">
+      						<div class="front"><span class="int-volume-off"></span></div>
+      						<div class="back"><span class="int-volume-up"></span></div>
+      					</div>
+      				</div>
+      			</button>
+      		</div>
+
 			</div>
-			<div class="b_video">
+			<div class="b_video js--seccion--scroll">
 				<video class="video_background_controls" controls>
 					<source src="images/aguavidamia/el_agua_la_vida_mia_7.mp4" type="video/mp4"/>
 				</video>
 			</div>
-			<div class="b_audio">
+			<div class="b_audio js--seccion--scroll js--seccion--audio" data-audio="images/aguavidamia/El_agua_la_vida_mia_8.mp3">
 				<video class="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
 					<source src="images/aguavidamia/El_agua_la_vida_mia_8.mp4" type="video/mp4"/>
 				</video>
-				<audio controls>
-					<source src="images/aguavidamia/El_agua_la_vida_mia_8.mp3" type="audio/mpeg">
-					Your browser does not support the audio tag.
-				</audio>
+
+				<div class="reproductor">
+      			<button data-estado="pausa" class="js-reproducir">
+      				<div class="flip-container">
+      					<div class="flipper">
+      						<div class="front"><span class="int-play-circle-fill"></span></div>
+      						<div class="back"><span class="int-pause-circle-fill"></span></div>
+      					</div>
+      				</div>
+      			</button>
+      			<input type="range" min="0" max="100" value="0" step="0.1" class="js-rango">
+      			<button data-volumen="suena" class="js-volumen volumen"><span class="js-texto texto">Silencio</span>
+      				<div class="flip-container">
+      					<div class="flipper">
+      						<div class="front"><span class="int-volume-off"></span></div>
+      						<div class="back"><span class="int-volume-up"></span></div>
+      					</div>
+      				</div>
+      			</button>
+      		</div>
 			</div>
-			<div class="b_texto">
-				<p>“La furia de Pulowi es contra nosotros porque somos los legítimos. Ellos llegaron aquí hambreados de plata y apoyados por un Gobierno arrodillante”. Adelaida se refiere a la llegada de la empresa minera y a las denuncias que tiene documentadas por la desviación del río Ranchería y de otros arroyos.</p>
-				<p>El desvío del arroyo Bruno es la bandera de lucha actual. Denuncia: “A La Guajira la vamos a defender con la vida hasta el último momento. Llegaron a invadir el territorio. Son unos monstruos”.</p>
-				<p>Cuando Adelaida se refiere a este tema, le habla a Cerrejón, la empresa carbonífera más grande de Latinoamérica. La misma que ha estado en La Guajira a lo largo de 30 años. Dice que durante ese tiempo se han secado 26 fuentes de agua. El arroyo Bruno, un brazo de este caudal de agua, está en camino de convertirse en la número 27.</p>
-				<p>La desviación del río Ranchería se dio en La Guajira ante la presencia del carbón como negocio y los precios internacionales. Es así que Cerrejón, catalogada como la mina de carbón a cielo abierto más grande del mundo preparó proyectos para explotar en las profundidades de esta fuente de agua y como consecuencia comenzó a secarse.</p>
-				<p>Por esto, afectar al arroyo Bruno, uno de los brazos del Ranchería puso en alerta a las comunidades de La Guajira. Adelaida, se queja: “Es que ellos van a intervenir varias veces la capa de la tierra”. Ya hay experiencias. Cuando esto pasa viene la sequía, se desvía el sentido natural del agua, se ahuyentan a las especies animales, se acaba con el ecosistema natural en el lugar. Luego, llega la sequía. Después, las rancherías padecen por agua.</p>
-				<p>Se preocupa por el presente y por el futuro de su tierra y la de sus paisanos. “Nosotros estamos extinguiéndonos de la tierra por pura, física sed y ahora con este impacto, con ese trabajo qué van a hacer, más rápido nos vamos a extinguir. ¿Quién va a quedar aquí para contar esto?”</p>
+			<div class="b_texto js--seccion--scroll">
+				<div class="js--carrusel__3">
+					<div>
+						<p>“La furia de Pulowi es contra nosotros porque somos los legítimos. Ellos llegaron aquí hambreados de plata y apoyados por un Gobierno arrodillante”. Adelaida se refiere a la llegada de la empresa minera y a las denuncias que tiene documentadas por la desviación del río Ranchería y de otros arroyos.</p>
+					</div>
+					<div>
+						<p>El desvío del arroyo Bruno es la bandera de lucha actual. Denuncia: “A La Guajira la vamos a defender con la vida hasta el último momento. Llegaron a invadir el territorio. Son unos monstruos”.</p>
+					</div>
+					<div>
+						<p>Cuando Adelaida se refiere a este tema, le habla a Cerrejón, la empresa carbonífera más grande de Latinoamérica. La misma que ha estado en La Guajira a lo largo de 30 años. Dice que durante ese tiempo se han secado 26 fuentes de agua. El arroyo Bruno, un brazo de este caudal de agua, está en camino de convertirse en la número 27.</p>
+					</div>
+					<div>
+						<p>La desviación del río Ranchería se dio en La Guajira ante la presencia del carbón como negocio y los precios internacionales. Es así que Cerrejón, catalogada como la mina de carbón a cielo abierto más grande del mundo preparó proyectos para explotar en las profundidades de esta fuente de agua y como consecuencia comenzó a secarse.</p>
+					</div>
+					<div>
+						<p>Por esto, afectar al arroyo Bruno, uno de los brazos del Ranchería puso en alerta a las comunidades de La Guajira. Adelaida, se queja: “Es que ellos van a intervenir varias veces la capa de la tierra”. Ya hay experiencias. Cuando esto pasa viene la sequía, se desvía el sentido natural del agua, se ahuyentan a las especies animales, se acaba con el ecosistema natural en el lugar. Luego, llega la sequía. Después, las rancherías padecen por agua.</p>
+					</div>
+					<div>
+						<p>Se preocupa por el presente y por el futuro de su tierra y la de sus paisanos. “Nosotros estamos extinguiéndonos de la tierra por pura, física sed y ahora con este impacto, con ese trabajo qué van a hacer, más rápido nos vamos a extinguir. ¿Quién va a quedar aquí para contar esto?”</p>
+					</div>
+				</div>
 			</div>
-			<div class="b_foto_texto">
+			<div class="b_foto_texto js--seccion--scroll">
 				<div class="txt_gradient"></div>
 				<video class="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
 					<source src="images/aguavidamia/El_agua_la_vida_mia_9.mp4" type="video/mp4"/>
 				</video>
 				<div class="slider_txt">
-					<div class="btn_left"></div>
-					<p>Mover 700 metros al norte un tramo de 3,6 kilómetros del arroyo Bruno es uno de los proyectos que tiene la empresa Cerrejón desde 1998. Este brazo del río Ranchería mide 26 kilómetros.</p>
-					<!-- <p>La Corporación Autónoma Regional de La Guajira (Corpoguajira) le otorgó los permisos a la empresa minera para este proyecto. El IDEAM y el Servicio Geológico Colombiano la apoyaron con la validación de la evaluación técnica. Es decir, que Cerrejón no está actuando de manera ilegal, la empresa tiene el aval y los permisos de las instituciones a las que les competen.</p>
-					<p>“El problema de La Guajira no es el arroyo Bruno, es que el arroyo Bruno no le va a devolver el agua a La Guajira, sino el poco desarrollo que hemos tenido durante muchos años”. Así lo defiende Raúl Roys, director de Fundación Cerrejón para el fortalecimiento institucional, el progreso y el agua.</p>
-					<p>A quienes se quejan por la sequía les responde: “Nosotros desde el año 2014 hemos entregado más de 30 millones de litros de agua en lo que llevamos en el recuento”. Hay un mapa que presentó Roys en el que se marcan puntos de entrega de agua potable y atención en las comunidades de Riohacha, Barrancas, Hatonuevo, Albania, Maicao, Manaure y Uribia. Son en total, de acuerdo con las cifras de Cerrejón, 353 comunidades atendidas y al menos 44 mil 100 personas.</p>
-					<p>Defiende la posición de la empresa ante quienes reclaman el desvío. En esos 3,6 kilómetros hay riqueza minera, en esos 3,6 kilómetros hay 33 millones de toneladas de carbón, la misma cifra de producción anual de Cerrejón.</p>
-					<p>Esto no se ha hecho a espaldas de ninguna comunidad, asegura Roys y replica que el proceso ha sido “transparente y abierto. Todas las comunidades alrededor del arroyo Bruno han conocido el proyecto, nosotros los trajimos a todos, ¡a todos!, con el fin de que pudieran recorrer el arroyo Bruno”.</p>
-					<p>Dentro del proyecto que pretende que la desviación sea un espejo del caudal del arroyo, prometen cuidar la veda y “mover” el ecosistema. “Es decir, si hay que tumbar algún árbol o mover algún árbol, lo que se contempla es una relación de uno a 10. Si yo tumbo un árbol, coloco 10”.</p>
-					<p>Roys le habla al Estado y a la comunidad wayuu. “Pensar que el problema de La Guajira es Cerrejón o el arroyo Bruno, es no hablar con la verdad”. Considera que debe haber intervención gubernamental con políticas que atiendan los problemas de nutrición y del agua. Son problemas históricos.</p>
-					<p>“Hoy La Guajira se volvió el departamento de la crisis, se volvió el departamento importante, la noticia de interés nacional. Hoy nos volvimos noticia”.</p>
-					<p>La principal actividad económica de La Guajira es la minería, por eso Raúl Roys sustenta: “Yo quiero saber cómo va a sobrevivir La Guajira sin su principal actividad económica, si nunca hemos tenido otro desarrollo en el departamento que nos permita sostenernos de manera distinta”.</p> -->
-					<div class="btn_right"></div>
-				</div>
-			</div>
-				<div class="b_foto_texto">
-					<div class="txt_gradient"></div>
-					<video class="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
-						<source src="images/aguavidamia/El_agua_la_vida_mia_10.m4v" type="video/mp4"/>
-					</video>
-					<div class="slider_txt">
-						<div class="btn_left"></div>
-						<p>La Corporación Autónoma Regional de La Guajira (Corpoguajira) le otorgó los permisos a la empresa minera para este proyecto. El IDEAM y el Servicio Geológico Colombiano la apoyaron con la validación de la evaluación técnica. Es decir, que Cerrejón no está actuando de manera ilegal, la empresa tiene el aval y los permisos de las instituciones a las que les competen.</p>
-						<div class="btn_right"></div>
+					<div class="js--carrusel__4">
+						<div>
+							<p>Mover 700 metros al norte un tramo de 3,6 kilómetros del arroyo Bruno es uno de los proyectos que tiene la empresa Cerrejón desde 1998. Este brazo del río Ranchería mide 26 kilómetros.</p>
+						</div>
+						<div>
+							<p>La Corporación Autónoma Regional de La Guajira (Corpoguajira) le otorgó los permisos a la empresa minera para este proyecto. El IDEAM y el Servicio Geológico Colombiano la apoyaron con la validación de la evaluación técnica. Es decir, que Cerrejón no está actuando de manera ilegal, la empresa tiene el aval y los permisos de las instituciones a las que les competen.</p>
+						</div>
+						<div>
+							<p>“El problema de La Guajira no es el arroyo Bruno, es que el arroyo Bruno no le va a devolver el agua a La Guajira, sino el poco desarrollo que hemos tenido durante muchos años”. Así lo defiende Raúl Roys, director de Fundación Cerrejón para el fortalecimiento institucional, el progreso y el agua.</p>
+						</div>
+						<div>
+							<p>A quienes se quejan por la sequía les responde: “Nosotros desde el año 2014 hemos entregado más de 30 millones de litros de agua en lo que llevamos en el recuento”. Hay un mapa que presentó Roys en el que se marcan puntos de entrega de agua potable y atención en las comunidades de Riohacha, Barrancas, Hatonuevo, Albania, Maicao, Manaure y Uribia. Son en total, de acuerdo con las cifras de Cerrejón, 353 comunidades atendidas y al menos 44 mil 100 personas.</p>
+						</div>
+						<div>
+							<p>Defiende la posición de la empresa ante quienes reclaman el desvío. En esos 3,6 kilómetros hay riqueza minera, en esos 3,6 kilómetros hay 33 millones de toneladas de carbón, la misma cifra de producción anual de Cerrejón.</p>
+						</div>
+						<div>
+							<p>Esto no se ha hecho a espaldas de ninguna comunidad, asegura Roys y replica que el proceso ha sido “transparente y abierto. Todas las comunidades alrededor del arroyo Bruno han conocido el proyecto, nosotros los trajimos a todos, ¡a todos!, con el fin de que pudieran recorrer el arroyo Bruno”.</p>
+						</div>
+						<div>
+							<p>Dentro del proyecto que pretende que la desviación sea un espejo del caudal del arroyo, prometen cuidar la veda y “mover” el ecosistema. “Es decir, si hay que tumbar algún árbol o mover algún árbol, lo que se contempla es una relación de uno a 10. Si yo tumbo un árbol, coloco 10”.</p>
+						</div>
+						<div>
+							<p>Roys le habla al Estado y a la comunidad wayuu. “Pensar que el problema de La Guajira es Cerrejón o el arroyo Bruno, es no hablar con la verdad”. Considera que debe haber intervención gubernamental con políticas que atiendan los problemas de nutrición y del agua. Son problemas históricos.</p>
+						</div>
+						<div>
+							<p>“Hoy La Guajira se volvió el departamento de la crisis, se volvió el departamento importante, la noticia de interés nacional. Hoy nos volvimos noticia”.</p>
+						</div>
+						<div>
+							<p>La principal actividad económica de La Guajira es la minería, por eso Raúl Roys sustenta: “Yo quiero saber cómo va a sobrevivir La Guajira sin su principal actividad económica, si nunca hemos tenido otro desarrollo en el departamento que nos permita sostenernos de manera distinta”.</p>
 						</div>
 					</div>
 				</div>
-				<!-- <h2>Un colegio wayuu frente a la crisis del agua
-					<div class="break_verde"></div>
-				</h2>
-				<p class="subtitulo">A Johan Mosquera, porque me acompañó a cada minuto en su tierra. </p>
+			</div>
+			<div class="b_foto_texto js--seccion--scroll">
+				<div class="txt_gradient"></div>
+				<video class="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
+					<source src="images/aguavidamia/El_agua_la_vida_mia_10.m4v" type="video/mp4"/>
+				</video>
+				<div class="slider_txt">
+					<div class="js--carrusel__5">
+						<div>
+							<p>La Corporación Autónoma Regional de La Guajira (Corpoguajira) le otorgó los permisos a la empresa minera para este proyecto. El IDEAM y el Servicio Geológico Colombiano la apoyaron con la validación de la evaluación técnica. Es decir, que Cerrejón no está actuando de manera ilegal, la empresa tiene el aval y los permisos de las instituciones a las que les competen.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+			<h2>Un colegio wayuu frente a la crisis del agua
+				<div class="break_verde"></div>
+			</h2>
+			<p class="subtitulo">A Johan Mosquera, porque me acompañó a cada minuto en su tierra. </p>
 			<div class="b_foto_h">
 				<figure>
 					<img src="images/aguavidamia/escuela/escuela7.jpg"/>
@@ -146,17 +257,17 @@
 			<div class="b_texto">
 				<p>
 					En una ranchería de la comunidad Jirtú, del municipio Manaure, del departamento La Guajira, en la costa del Caribe colombiano, hay un colegio con tres maestras y 60 estudiantes.
-Las edades van desde cinco hasta 16 y se estudia hasta quinto grado. Los grupos son mixtos.
-Las tres maestras pertenecen al pueblo wayuu. Los 60 estudiantes pertenecen al pueblo wayuu. Y todos hablan una misma lengua: wayuunaiki. Sin embargo, las clases transcurren tanto en wayuunaiki, como en español.
-El método del colegio intenta no solo integrar conocimientos de dos mundos distintos sino también educar para vivir entre dos mundos distintos.
-—Así sea que ellos tienen su idioma y sus costumbres, nosotras tenemos que prepararles para que cuando vayan a la civilización no vayan idos y sepan a qué van –explica la maestra Yenifer Cotes, de preescolar y primero, que lleva casi dos años ejerciendo aquí como docente.
-Cuando dice civilización, Yenifer no se refiere a un lugar sino a un mundo. El mundo de los arijunas. El mundo de las personas extrañas que no comparten sus principios, que no tienen la piel del mismo color del barro, que pueden no comprender y hasta menospreciar sus tradiciones, que se identifican con la cultura occidental, que habitan en ciudades.
-La enseñanza no apuesta al aislamiento sino a una inclusión que no implique perder las esencias. Los wayuu saben que lo que ocurra en la supuesta civilización de los arijunas, puede impactar en sus vidas.
-En el colegio, en la comunidad Jirtú, en Manaure, en La Guajira, desde hace tiempo los wayuu saben eso desde las experiencias del hambre, la sed y el calor.
-    ***
-La Guajira es la región más seca y árida de Colombia. Manaure, una de las más secas y áridas de La Guajira.
-La temperatura atmosférica en este municipio oscila entre 28° y 38° Celsius. Durante casi todos los meses del año. En días extremos, el cuerpo humano puede sentir hasta 46° Celsius.
-</p>
+					Las edades van desde cinco hasta 16 y se estudia hasta quinto grado. Los grupos son mixtos.
+					Las tres maestras pertenecen al pueblo wayuu. Los 60 estudiantes pertenecen al pueblo wayuu. Y todos hablan una misma lengua: wayuunaiki. Sin embargo, las clases transcurren tanto en wayuunaiki, como en español.
+					El método del colegio intenta no solo integrar conocimientos de dos mundos distintos sino también educar para vivir entre dos mundos distintos.
+					—Así sea que ellos tienen su idioma y sus costumbres, nosotras tenemos que prepararles para que cuando vayan a la civilización no vayan idos y sepan a qué van –explica la maestra Yenifer Cotes, de preescolar y primero, que lleva casi dos años ejerciendo aquí como docente.
+					Cuando dice civilización, Yenifer no se refiere a un lugar sino a un mundo. El mundo de los arijunas. El mundo de las personas extrañas que no comparten sus principios, que no tienen la piel del mismo color del barro, que pueden no comprender y hasta menospreciar sus tradiciones, que se identifican con la cultura occidental, que habitan en ciudades.
+					La enseñanza no apuesta al aislamiento sino a una inclusión que no implique perder las esencias. Los wayuu saben que lo que ocurra en la supuesta civilización de los arijunas, puede impactar en sus vidas.
+					En el colegio, en la comunidad Jirtú, en Manaure, en La Guajira, desde hace tiempo los wayuu saben eso desde las experiencias del hambre, la sed y el calor.
+					    ***
+					La Guajira es la región más seca y árida de Colombia. Manaure, una de las más secas y áridas de La Guajira.
+					La temperatura atmosférica en este municipio oscila entre 28° y 38° Celsius. Durante casi todos los meses del año. En días extremos, el cuerpo humano puede sentir hasta 46° Celsius.
+					</p>
 			</div>
 			<div class="b_foto_h">
 				<figure>
@@ -166,13 +277,13 @@ La temperatura atmosférica en este municipio oscila entre 28° y 38° Celsius. 
 			</div>
 			<div class="b_texto">
 				<p>Llueve poco. Solo en mayo, junio, octubre y noviembre. Pero cuando llueve, llueve con fuerza. Con furia. Hasta el exceso. Cambia el panorama de la sequía por el de las inundaciones, arroyos desbordados, deslizamientos.
-La ola invernal que invadió al país entre julio de 2010 y mayo de 2011, deshizo La Guajira con ráfagas de lluvia. Fue el quinto departamento que más sufrió ese evento meteorológico, de acuerdo con un informe de la Comisión Económica para América Latina y el Caribe y el Banco Interamericano de Desarrollo. Registró más de 140 pérdidas de vidas humanas y desapariciones y un total de 163.534 personas damnificadas, de una población que rondaba entonces la cifra de 846.000.
-Pero el drama de la ola invernal no revela tanto de la hostilidad del clima, como de las vulnerabilidades.
-La Guajira es el tercer departamento del país con mayor índice de Necesidades Básicas Insatisfechas (NBI): 65.2 por ciento, según datos de 2012 difundidos por el Departamento Administrativo Nacional de Estadística (DANE). Y fuera de las cabeceras municipales, la situación es mucho más dramática: 91.2 por ciento.
-La Guajira es, también, el departamento con mayor población indígena del país. Aquí habitan 278.212 indígenas: 19.98 por ciento del total nacional. Y de esa cifra, 270.413 se identifican como wayuu, atendiendo al DANE. Cerca de 98 por ciento de las personas que conforman el pueblo Wayuu en Colombia, residen en La Guajira, dispersas en 15.000 km².
-Uribia, Manaure y Maicao son los municipios con más comunidades wayuu. Casi 71 por ciento de la población del departamento reside en ellos. Uribia, Manaure y Maicao son, también, los municipios con mayores índices de NBI y donde se padece más intensamente la crisis humanitaria que abate hoy al departamento.
-En teoría, La Guajira debería poder cubrir las necesidades básicas de sus habitantes con sus recursos disponibles: salinas marítimas, reservas de gas natural, minas de carbón, múltiples atractivos turísticos, una valiosa producción artesanal, entre otros. En teoría.
-</p>
+				La ola invernal que invadió al país entre julio de 2010 y mayo de 2011, deshizo La Guajira con ráfagas de lluvia. Fue el quinto departamento que más sufrió ese evento meteorológico, de acuerdo con un informe de la Comisión Económica para América Latina y el Caribe y el Banco Interamericano de Desarrollo. Registró más de 140 pérdidas de vidas humanas y desapariciones y un total de 163.534 personas damnificadas, de una población que rondaba entonces la cifra de 846.000.
+				Pero el drama de la ola invernal no revela tanto de la hostilidad del clima, como de las vulnerabilidades.
+				La Guajira es el tercer departamento del país con mayor índice de Necesidades Básicas Insatisfechas (NBI): 65.2 por ciento, según datos de 2012 difundidos por el Departamento Administrativo Nacional de Estadística (DANE). Y fuera de las cabeceras municipales, la situación es mucho más dramática: 91.2 por ciento.
+				La Guajira es, también, el departamento con mayor población indígena del país. Aquí habitan 278.212 indígenas: 19.98 por ciento del total nacional. Y de esa cifra, 270.413 se identifican como wayuu, atendiendo al DANE. Cerca de 98 por ciento de las personas que conforman el pueblo Wayuu en Colombia, residen en La Guajira, dispersas en 15.000 km².
+				Uribia, Manaure y Maicao son los municipios con más comunidades wayuu. Casi 71 por ciento de la población del departamento reside en ellos. Uribia, Manaure y Maicao son, también, los municipios con mayores índices de NBI y donde se padece más intensamente la crisis humanitaria que abate hoy al departamento.
+				En teoría, La Guajira debería poder cubrir las necesidades básicas de sus habitantes con sus recursos disponibles: salinas marítimas, reservas de gas natural, minas de carbón, múltiples atractivos turísticos, una valiosa producción artesanal, entre otros. En teoría.
+				</p>
 			</div>
 			<div class="b_foto_h">
 				<figure>
@@ -182,16 +293,16 @@ En teoría, La Guajira debería poder cubrir las necesidades básicas de sus hab
 			</div>
 			<div class="b_texto">
 				<p>El colegio no tiene nombre propio. Lo administra la Asociación de Jefes Familiares de la Zona Norte de la Alta Guajira Wayuu Araurayu. Cuando se le pregunta por el nombre a Yenifer, refiere el de la asociación que la contrata: Wayuu Araurayu.
-Tampoco tiene aulas propias. Las aulas son dos viviendas prestadas por habitantes de la ranchería.
-—Nosotros estamos aquí prácticamente invadiendo territorio ajeno. Porque mira: esta es la casa de la manipuladora (de los alimentos), que gracias a Dios ella nos colabora mucho. No son salones que nos haya dado la empresa. Nada.
-Las viviendas prestadas son cuatro paredes de adobe y palos de madera. Techos con tejas de cinc. La tierra por suelo. No hay divisiones. En la vivienda wayuu no suele haber divisiones. Se cuelgan los chinchorros para descansar y ya no hace falta nada más. La vida transcurre a cielo abierto.
-La vivienda, en verdad, es la naturaleza, el territorio.
-Para cumplir función de aula, la casa de la manipuladora no se transforma. Ni la otra. Solo que en lugar de chinchorros que cuelgan, hay banquitos, sillas de madera o plástico, también bloques y piedras. Cuanto sirva de asiento. Incluso, el suelo.
-Las manos y las rodillas sirven de apoyo para hacer los apuntes. Tampoco disponen de pizarras. Las maestras dictan los deberes, van de cuaderno en cuaderno.
-En uno de los salones hay láminas con lecciones colgadas de las paredes. En el otro, donde enseña Yenifer a los más pequeños, una mochila amarilla.
-Y la escuela crece. Un año atrás era Yenifer sola. Hoy ya son tres las docentes. Son tres los grupos de estudiantes. Y tres debieran ser las aulas.
-—Si de pronto yo el año pasado no me hubiera comportado debidamente con la educación y los padres de familia, mis niños no estuvieran aquí. No hubiera más niños.
-</p>
+				Tampoco tiene aulas propias. Las aulas son dos viviendas prestadas por habitantes de la ranchería.
+				—Nosotros estamos aquí prácticamente invadiendo territorio ajeno. Porque mira: esta es la casa de la manipuladora (de los alimentos), que gracias a Dios ella nos colabora mucho. No son salones que nos haya dado la empresa. Nada.
+				Las viviendas prestadas son cuatro paredes de adobe y palos de madera. Techos con tejas de cinc. La tierra por suelo. No hay divisiones. En la vivienda wayuu no suele haber divisiones. Se cuelgan los chinchorros para descansar y ya no hace falta nada más. La vida transcurre a cielo abierto.
+				La vivienda, en verdad, es la naturaleza, el territorio.
+				Para cumplir función de aula, la casa de la manipuladora no se transforma. Ni la otra. Solo que en lugar de chinchorros que cuelgan, hay banquitos, sillas de madera o plástico, también bloques y piedras. Cuanto sirva de asiento. Incluso, el suelo.
+				Las manos y las rodillas sirven de apoyo para hacer los apuntes. Tampoco disponen de pizarras. Las maestras dictan los deberes, van de cuaderno en cuaderno.
+				En uno de los salones hay láminas con lecciones colgadas de las paredes. En el otro, donde enseña Yenifer a los más pequeños, una mochila amarilla.
+				Y la escuela crece. Un año atrás era Yenifer sola. Hoy ya son tres las docentes. Son tres los grupos de estudiantes. Y tres debieran ser las aulas.
+				—Si de pronto yo el año pasado no me hubiera comportado debidamente con la educación y los padres de familia, mis niños no estuvieran aquí. No hubiera más niños.
+				</p>
 			</div>
 			<div class="b_foto_h">
 				<figure>
@@ -199,16 +310,7 @@ Y la escuela crece. Un año atrás era Yenifer sola. Hoy ya son tres las docente
 					<figcaption>Elizabeth, una de las estudiantes de Yenifer.</figcaption>
 				</figure>
 			</div>
-
-
-
-
-
-
-
-
-
-		 <div class="b_foto_v">
+			<div class="b_foto_v">
 				<figure>
 					<img src="images/img_vertical.png"/>
 					<figcaption>Maecenas tempus tincidunt Barron.</figcaption>
@@ -217,7 +319,10 @@ Y la escuela crece. Un año atrás era Yenifer sola. Hoy ya son tres las docente
 					<img src="images/img_vertical.png"/>
 					<figcaption>Maecenas tempus tincidunt finibus.</figcaption>
 				</figure>
-			</div> -->
+			</div>
+			-->
 		</section>
-			</body>
+		<div class="js--nav--scroll nav--scroll"></div>
+		<script src="js/funciones-min.js"></script> 
+	</body>
 </html>
